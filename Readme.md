@@ -24,7 +24,12 @@ In a terminal run:
 
 2. Run upload command, eg. bossac (included in folder)
 
+If connected to board through Programming Port:
 path/to/bossac -i -d --port=ttyACM0 -U false -e -w  -b "path/to/firmware.bin" -R
+
+If connected to board through Native USB:
+path/to/bossac -i -d --port=ttyACM0 -U true -e -w  -b "path/to/firmware.bin" -R
+
 
 Refer to bossac manual for details on the used option/switches (-idUewbR)
 
